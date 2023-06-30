@@ -1,0 +1,447 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-bar {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    background: url("/portfolio/images1/back.jpg");
+}
+
+.nav-name {
+    width: 30%;
+    margin-left: 30px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.nav-name::first-letter{
+    color: red;
+}
+
+.nav-links {
+    display: flex;
+    width: 70%;
+}
+
+.nav-links ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;   
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;
+
+
+    
+
+}
+
+.main {
+    display: flex;
+}
+.main-box {
+    background: url("/portfolio/images1/back.jpg");
+    min-height:100vh;
+}
+
+.main-b {
+    width: 50%;
+    padding: 150px 20px 50px 80px;
+}
+
+.hello {
+    color: white;    
+    font-size: clamp(1.3rem, 3vw, 4rem);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name {
+    color: #ff5858;
+    font-size: clamp(1.3rem, 3vw, 4rem);
+
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.portfolio img {
+    width: 160px
+}
+
+.portfolio h2 {
+    margin-top: 70px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    border: 2px solid red;
+    width: 13rem;
+    padding: 10px;
+}
+
+.ser {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: math;
+    font-weight: 1;
+}
+
+.des {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 14px;
+    font-family: system-ui;
+}
+
+.ser-div {
+    width: 18%;
+    
+}
+
+.serv {
+    background: url("/portfolio/images1/imgs.png");
+    width: 100%;
+    color: white;
+    font-size: 11px;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+
+.services-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.projects {
+    text-align: center;
+    margin-top: 100px;
+    font-family: math;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.projects-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-imgs {
+    width: 450px;
+    
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+    background-color: #25454b;
+    width: 450px;
+    height: 300px;
+
+}
+
+
+h4 {
+    color: white;
+    letter-spacing: 10px;
+    padding-bottom: 40px;
+}
+
+.description {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.about {
+    margin-top: 140px;
+    
+}
+
+.ab-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab-img {
+    border: 3px solid red;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.ab-img img {
+    margin-top: -20px;
+    margin-right: -20px;
+}
+
+.about-me {
+    width: 66%;
+    margin-left: 60px;
+    text-align: initial;
+}
+
+.about-me h3 {
+    font-family: sans-serif;
+    font-weight: 2;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 12px;
+    font-family: system-ui;
+    margin-bottom: 10px;
+}
+
+.resume {
+    border: 2px solid red;
+    padding: 6px 15px;
+}
+
+.con {
+    text-align: center;
+    margin-top: 75px;
+    padding: 12px;
+    font-size: 22px;
+    font-family: system-ui;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cnt {
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #232b40;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.add {
+    font-size: 13px;
+}
+
+footer {
+    background-color: #25454b;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 17px;
+    font-family: system-ui;
+    margin-top: 40px;
+}
+
+.burger{
+    display: none;
+  }
+  
+  .line{
+    background-color: red;
+    width: 30px;
+    margin: 3px 3px;
+    height: 3px;
+  }
+  
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+    .pro{
+        flex-direction: column;
+    }
+    
+    .projects-details{
+        gap: 60px;
+    }
+}
+
+@media only screen and (max-width:840px){
+    .nav-name{
+        width: 40%;
+        margin-left: 15px;
+    }
+    .nav-links{
+        width: 50%;
+    }
+
+    .ser-div{
+        width: 23%;
+    }
+
+    .about-me{
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .nav-bar{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-name{
+        width: 90%;
+        display: flex;
+        min-height: 40px;
+        align-items: center;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        line-height: 30px;
+        width: 100%;
+    }
+
+
+    .burger{
+        display: block;
+        position: absolute;
+        left: 85%;
+        top:10px;
+
+      }
+
+      .nav-list{
+        transform: translateY(-200%);  
+      }
+      ul{  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0,0,0,0.3);
+        transition: 0.4s;
+      }
+
+      .main-b {
+        padding: 150px 20px 50px 30px
+      }
+
+      .services-div{
+        gap: 20px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .services-div .ser-div{
+        width: 60%;
+      }
+
+
+}
+
+@media only screen and (max-width:570px){
+    .contact-info{
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+
+    .cnt{
+        width: 60%;
+    }
+
+    .ab-sec{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .about-me h3{
+        text-align: center;
+    }
+    
+    .about-me{
+        margin-left: 0px;
+
+    }
+    .about-me p{
+        text-align: justify;
+    }
+
+    .p{
+        width: 80%;
+    }
+
+    .project-images{
+        width: 80%;
+    }
+
+    .project-images img {
+        width: 100%;
+    }
+    .portfolio{
+        width: 45%
+    }
+}
+
+@media only screen and (max-width:400px){
+
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-b h1 {
+        font-size: 25px;
+    }
+
+    .portfolio{
+        width: 60%;
+    }
+    .des{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
